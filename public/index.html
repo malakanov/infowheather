@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <title>Wheather app</title>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="icon-container">
+            <canvas id="icon" width="100" height="100"></canvas>
+        </div>
+        <div class="content">
+            <div class="general-information">
+                <div class="status">Введите название города</div>
+                <div class="location">чтобы увидеть прогноз погоды</div>
+            </div>
+            <div class="detail-section">
+                <div class="detail">
+                    <div class="title">Ветер</div>
+                    <div class="value">значение</div>
+                </div><div class="detail">
+                    <div class="title">Температура</div>
+                    <div class="value">значение</div>
+                </div><div class="detail">
+                    <div class="title">Осадки</div>
+                    <div class="value">значение</div>
+                </div>
+            </div>
+        </div>
+        <div class="city-search-container">
+            <input type="text" class="city-search" placeholder="Введите название города">
+        </div>
+    </div>
+</div>
+<a href="htts://darksky.net/poweredby" class="darksky-logo">Powered By Dark Sky</a>
+</body>
+</html>
